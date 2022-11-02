@@ -3,3 +3,5 @@
 3. Dana Szumigraj
 a-Para poder actualizar mi repositorio al estado que esta el repositorio que hice el fork, tengo que ir a sync fork, ver si hubo cambios, y en caso que si hubo cambios apretar actualizar rama. 
 b-Si puede. Gamma tiene que mandar pull request a Beta para que pueda actualizar su fork y luego Alfa hace el sync fork.
+c-Si, si puede, siempre y cuando ALFA haya enviado pull request a BETA y este lo acepte, de esta manera GAMMA haría un sync fork para ver los cambios.
+d-Si, se pierden.
