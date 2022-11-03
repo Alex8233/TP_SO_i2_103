@@ -5,3 +5,20 @@ a-Para poder actualizar mi repositorio al estado que esta el repositorio que hic
 b-Si puede. Gamma tiene que mandar pull request a Beta para que pueda actualizar su fork y luego Alfa hace el sync fork.
 c-Si, si puede, siempre y cuando ALFA haya enviado pull request a BETA y este lo acepte, de esta manera GAMMA haría un sync fork para ver los cambios.
 d-Si, se pierden.
+
+e-
+COMANDOS NECESARIOS PARA RESOLUCION DEL TP
+
+-git clone (ALFA y GAMMA)
+-git add ., git commit -m "texto del commit", git push (ALFA y GAMMA)
+-git clone (BETA)
+-git add ., git commit -m "texto del commit", git push (BETA)
+-git pull, git add ., git commit -m "texto del commit", git push (GAMMA)
+-git pull, git add ., git commit -m "texto del commit", git push (BETA)
+-git pull, git add ., git commit -m "texto del commit", git push (ALFA)
+
+A lo largo del TP, tambien se utilizaron las siguientes opciones de github:
+-Sync fork, update branch: usado por ALFA y GAMMA para actualizar el repositorio al que le hicieron fork una vez que BETA haya hecho/aceptado modificaciones.
+-Contribute, Open pull request: para que ALFA y GAMMA puedan sumar sus modificaciones al repositorio de BETA.
+
+Todos los archivos fueron creados por BETA.
